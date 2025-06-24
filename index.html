@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promo Flash Sale - Demo CI/CD</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #f4f7f6; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+        .container { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); max-width: 500px; text-align: center; }
+        h1 { color: #333; }
+        .promo-timer { background: #ff6b6b; color: white; padding: 1rem; border-radius: 5px; margin: 1rem 0; font-size: 1.2rem; }
+        .cta-button { background: #4ecdc4; color: white; padding: 1rem 2rem; border: none; border-radius: 5px; font-size: 1.1rem; cursor: pointer; transition: background 0.3s; }
+        .cta-button:hover { background: #45b7aa; }
+        .version-info { margin-top: 1rem; color: #666; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ Flash Sale Spesial! ⚡</h1>
+        <div class="promo-timer">Berakhir dalam: <span id="countdown">23:59:59</span></div>
+        <button class="cta-button">Ambil Promo Sekarang!</button>
+        <p class="version-info">Deployed with CI/CD Pipeline | Version: <span id="version">1.0.0</span></p>
+    </div>
+</body>
+</html>
+
